@@ -18,5 +18,5 @@ while guess != secret and attemps < tries:
     attempts = attempts + 1
 
 if guess==secret:
-    print("Confirmed"
+    print("Confirmed")
 
