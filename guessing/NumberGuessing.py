@@ -23,10 +23,3 @@ if guess == secret:
 else:
     print("Access: LOCKED: Black helicopters have been sent to your location")
     print("Before you are terminated we would like you to know that the number was " + str(secret))
-
-
-
-
-
-
-
