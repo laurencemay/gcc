@@ -9,6 +9,8 @@ guess = 0
 def inputNumber():
     try:
         user_input = raw_input("enter a number between 1 and 99: ")
+        if user_input == "end":
+             exit(0)
         n = int(user_input)
         if n>99 or n<1:
             print("You are an IDIOT")
